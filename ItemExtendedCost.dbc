@@ -1,8 +1,9 @@
 Edit your itemextendedcost.dbc file and add new entries at the end:
 
+example of an item extended cost using 1 MagicGold as the currency:
 4000,0,0,0,44209,0,0,0,0,1,0x0,0,0,0
 
 column  description
-1       item extended cost id
-5       item id of MagicGold
+1       item extended cost id - unique id
+5       item id of MagicGold 44209 or id of any item
 10      amount of MagicGold
