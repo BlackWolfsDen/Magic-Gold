@@ -1,3 +1,8 @@
-Edit your item.dbc file and find the line for item id 44209 and replace it with this line:
+Edit your itemextendedcost.dbc file and add new entries at the end:
 
-44209,10,0,-1,-1,32282,0,0,
+4000,0,0,0,44209,0,0,0,0,1,0x0,0,0,0
+
+column  description
+1       item extended cost id
+5       item id of MagicGold
+10      amount of MagicGold
